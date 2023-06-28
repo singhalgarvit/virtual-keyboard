@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Keboard</title>
+    <link rel="stylesheet" href="keyboard.css" />
+    <script src="keyboard.js"></script>
+  </head>
+  <body>
+    <center>
+      <label for="effect" id="effect3d">
+        <input type="checkbox" id="effect" name="effect" oninput="effect()">3d effect
+      </label>
+      <div class="main" id="main">
+        <input type="text" id="input"  readonly autofocus /><br />
+        <div class="keyboard" id="keyboard">
+          <input type="button" class="buttons"   value="q" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="w" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="e" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="r" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="t" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="y" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="u" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="i" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="o" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="p" onclick="clicked(this)" /><br>
+          <input type="button" class="buttons"   value="a" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="s" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="d" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="f" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="g" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="h" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="j" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="k" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="l" onclick="clicked(this)" /><br>
+          <input type="button" class="buttons"   value="🔠" onclick="capslock(this)" id="capslock"/>
+          <input type="button" class="buttons"   value="z" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="x" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="c" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="v" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="b" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="n" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="m" onclick="clicked(this)" />
+          <input type="button" class="buttons"   value="⬅️" onclick="backspace()" />
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
+ 
